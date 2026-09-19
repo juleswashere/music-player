@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
+        <title>Music Player</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/1067f81ef1.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://gstatic.com" crossorigin>
+        <link href='https://fonts.googleapis.com/css?family=Nerko One' rel='stylesheet'>
+
+        
+    </head>
+    <body>
+    <div class="container">
+        <div class="elements">
+            <div class="music-player">
+                <img src=" media/valentines.jpeg" class="img">
+                <h2 class="title">Would That I</h2>
+                <p class="artist">Hozier</p>
+                <audio src="" id="song"></audio>
+                <input type="range" value="0" id="progress">
+            <div class="controls">
+                <div class="back"><i class="fa-solid fa-backward-step"></i></div>
+                <div id="ctrlIcon"><i class="fa-solid fa-play"></i></div>
+                <div class="skip"><i class="fa-solid fa-forward-step"></i></div>
+        </div>
+        </div>
+        <div><h1 class="header">Lyrics, out of love :)</h1>
+        <p class="lyrics">Can you see me? I'm waiting for the right time. I can't read you, but if you want, the pleasure's all mine</p>
+        </div>
+        </div>
+        
+</div>
+
+    <script src="data.js"></script>
+    <script>let currentSong = 3;</script>
+    <script src="script.js"></script>
+
+    </body>
+</html>
