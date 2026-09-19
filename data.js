@@ -3,7 +3,7 @@ const songs = [
         title: "Bags",
         file: "media/bags.mp3",
         artist: "Clairo",
-        img: "media/valentines.jpeg",
+        img: "/media/valentines.jpeg",
         lyrics: "Can you see me? I'm waiting for the right time. I can't read you, but if you want, the pleasure's all mine",
     },
     {
