@@ -65,7 +65,7 @@ const songs = [
     {
         title: "Bless The Telephone",
         file: "media/bags.m4a",
-        artist: "Robyn",
+        artist: "Labi Siffre",
         img: "media/train.jpeg",
         lyrics: "It's nice, the way you say my name Not very fast or slow, just soft and low The same as when you tell me how you feel I feel the same way, too I'm very much in love with you",
     },
