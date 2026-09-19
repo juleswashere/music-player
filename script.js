@@ -8,6 +8,7 @@ const back = document.querySelector(".back");
 const progress = document.querySelector("#progress");
 const ctrlIcon = document.querySelector("#ctrlIcon");
 const img = document.querySelector(".img")
+const lyrics = document.querySelector(".lyrics");
 
 ctrlIcon.addEventListener('click', () => {
     if(audioPlayer.paused) {
@@ -27,6 +28,8 @@ const setSongs = (i) => {
     title.innerHTML = music.title;
     artist.innerHTML = music.artist;
     img.src = music.img;
+    lyrics.innerHTML = music.lyrics;
+
 }
 setSongs(currentSong);
 
