@@ -16,6 +16,7 @@
 .elements{
     margin-left: 100px;
     display: flex;
+
 }
 .music-player{
     background: rgba(39, 78, 19, 0.7);
@@ -61,8 +62,7 @@
     height: 2.40vh;
     background: #b0bf93;
     border-radius: 50%;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.50);
-    
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.50);  
 }
 .controls{
     display: flex;
@@ -83,12 +83,10 @@
     cursor: pointer;
 }
 .controls div:nth-child(2){
-    transform: scale(1.25);
-    
+    transform: scale(1.25); 
 }
 .controls div:nth-child(2):hover{
     transform: scale(1.30)
-    
 }
 .header{
     font-family: "Nerko One";
@@ -100,9 +98,9 @@
 }
 .lyrics{
     font-size: 1.5rem;
-    margin-top: 2.813rem;
-    margin-left: 13.125rem;
-    margin-right: 12.5rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    margin-right: 9rem;
     text-align: center;
     color:#e1d6ca;
     background: rgba(39, 78, 19, 0.7);
@@ -110,6 +108,7 @@
     padding: 1.875rem;
     box-shadow: 0 10px 20px rgba(39, 78, 19, 0.7);
 }
+
 
 
 
