@@ -22,7 +22,7 @@ const songs = [
     },
     {
         title: "Would That I",
-        file: "media/wouldthatI.mp3",
+        file: "media/wouldthati.mp3",
         artist: "Hozier",
         img: "media/meet.jpeg",
         lyrics: "And it's not tonight Where I'm set alight, and I blink in sight Of your blinding light",
